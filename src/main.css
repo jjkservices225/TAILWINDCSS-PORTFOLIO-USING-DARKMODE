@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer-utilities {
+  .section-min-height {
+    min-height: calc(100vh - 68px);
+  }
+}
+
+.header-bg {
+  background: #f7a6f5;
+}
+
+.card-bg {
+  background: #e761bd;
+}
